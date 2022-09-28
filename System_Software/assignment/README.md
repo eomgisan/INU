@@ -1,1 +1,1 @@
-Upload the assignment for the class
+Upload the assignment of the class
