@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/idText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/idInput"
+        android:text="아이디" />
+
+    <TextView
+        android:id="@+id/passwordText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/idText"
+        android:layout_toLeftOf="@+id/passwordInput"
+        android:text="비밀번호" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:id="@+id/idInput"
+        android:layout_centerInParent="true"
+        android:hint="아이디"
+        android:layout_marginTop="151dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:id="@+id/passwordInput"
+        android:layout_centerInParent="true"
+        android:hint="비밀번호"
+        android:layout_below="@+id/idInput" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="로그인"
+        android:id="@+id/loginButton"
+        android:textAllCaps="false"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/passwordInput" />
+
+    <TextView
+        android:id="@+id/resulttext"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/loginButton"
+        android:text="결과" />
+
+
+   </RelativeLayout>
